@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "2EFBB4A3-EE49-4669-8E7C-E60105673337",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MVL.xcodeproj",
+        "identifier" : "ED2BBCD12F91C7B200A8FB48",
+        "name" : "MVLTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Libraries\/Location",
+        "identifier" : "LocationTests",
+        "name" : "LocationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Libraries\/Networking",
+        "identifier" : "NetworkingTests",
+        "name" : "NetworkingTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Core\/MobileDesignSystem\/MobileDesignSystem.xcodeproj",
+        "identifier" : "ED3A63282F9071B20015A7DC",
+        "name" : "MobileDesignSystemTests"
+      }
+    }
+  ],
+  "version" : 1
+}

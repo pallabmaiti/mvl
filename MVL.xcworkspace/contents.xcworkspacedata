@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Core"
+      name = "Core">
+      <FileRef
+         location = "group:MobileDesignSystem/MobileDesignSystem.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:Libraries"
+      name = "Libraries">
+      <FileRef
+         location = "group:Location">
+      </FileRef>
+      <FileRef
+         location = "group:Networking">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "container:MVL/MVL.xcodeproj">
+   </FileRef>
+</Workspace>

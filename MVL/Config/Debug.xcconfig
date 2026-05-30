@@ -1,0 +1,4 @@
+AQI_API_TOKEN =
+RG_API_KEY =
+
+#include? "Secrets.xcconfig"
